@@ -1,0 +1,201 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    background-position: center center;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* Start writing your code here */
+
+/* app */
+
+.container {
+    padding: 32px 80px 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding: 32px 24px 16px;
+    }
+}
+
+.title {
+    font-size: 24px;
+    color: #484848;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #484848;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.footer {
+    font-size: 14px;
+    color: #767676;
+    font-weight: 300;
+    border-top: 1px solid #cccccc;
+    padding: 16px 0;
+    margin: 0;
+}
+
+.title-border {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 16px;
+    margin-bottom: 42px;
+}
+
+/* hero secion */
+.hero {
+    padding: 120px 80px;
+}
+
+.hero-background {
+    /* display: flex; */
+    /* justify-content: center;
+    flex-direction: column; */
+    color: #484848;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(https://images.unsplash.com/photo-1572295727871-7638149ea3d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80);
+}
+
+.profile-img-border{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.profile-img {
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hero-title {
+    /* display: flex; */
+    margin-top: 0 0 32px;
+    font-size: 46px;
+    color: white;
+    width: 700px;
+}
+
+.hero-button-container {
+    /* display: flex; */
+    display: inline-block;
+    width: 300px;
+    margin-right: 24px;
+}
+
+.label {
+    margin: 0 0 16px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 40px 80px;
+    }
+
+    .hero-title {
+        width: 100%;
+    }
+}
+
+/* button */
+
+.button {
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 10px 22px;
+    font-weight: 500;
+}
+
+.hero-button {
+    width: 300px;
+}
+
+.button-white {
+    background-color: #ffffff;
+    border-color: white;
+    color: #484848;
+}
+
+.button-white-outline {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: white;
+}
+
+.button-green {
+    background-color: #008489;
+    border-color: #008489;
+    color: white;
+}
+
+/* card */
+
+.card {
+    width: 33%;
+    padding: 0 8px;
+    margin-right: -4px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-image {
+    height: 200px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.card-title {
+    color: #5d5d5d;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-footer {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info-card-image {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
